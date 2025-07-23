@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somesh Pratap Singh - ApexPlanet Intern</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div style="position: relative; display: inline-block;">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=240&fit=crop&auto=format"
+                     alt="Web Development Project"
+                     class="project-image"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display: none; width: 200px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    border-radius: 12px; border: 3px solid #667eea; margin: 0 auto 1.5rem; justify-content: center; align-items: center;
+                    color: white; font-size: 0.9rem; font-weight: 500; text-align: center;">
+                    💻<br>Web Development<br>Project
+                </div>
+            </div>
+            <h1 class="main-title">Somesh Pratap Singh</h1>
+            <p class="subtitle">ApexPlanet Internship Program</p>
+            <p class="description">
+                Welcome to my webpage! I am excited to be a part of the ApexPlanet Internship Program, where I am enhancing my web development skills.
+            </p>
+        </header>
+
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <h2 class="intro-title">About Me</h2>
+            <p class="intro-text">
+                Hello! I am Somesh Pratap Singh, passionate about building clean, functional, and engaging web experiences.
+                Currently, I am a part of the ApexPlanet Internship Program, focusing on strengthening my development skills by working on practical projects.
+            </p>
+            <p class="intro-text">
+                I believe in continuous learning and challenging myself with new opportunities. This webpage is a reflection of my growth during this internship.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <h2 class="skills-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><span>HTML</span></div>
+                <div class="skill-item"><span>CSS</span></div>
+                <div class="skill-item"><span>Python</span></div>
+                <div class="skill-item"><span>Java</span></div>
+                <div class="skill-item"><span>Problem Solving</span></div>
+            </div>
+        </section>
+
+        <!-- Buttons Section -->
+        <section class="buttons-section">
+            <a href="https://www.linkedin.com/in/somesh-pratap-singh-762391315/" target="_blank" class="btn btn-primary">
+                🔗 Connect on LinkedIn
+            </a>
+            <button class="btn btn-secondary" onclick="showMessage()">
+                ✨ Click here!
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <pre>
+            <p>&copy; 2025 Somesh Pratap Singh |
+             ApexPlanet Internship Program - Task 1</p>
+            </pre>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>🎉 Hello!</h2>
+            <p>Thank you for visiting my webpage! I am excited to continue growing through the ApexPlanet Internship Program.</p>
+            <button class="btn btn-primary" onclick="closeModal()">Awesome!</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function showMessage() {
+            document.getElementById('messageModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('messageModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('messageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        document.querySelectorAll('.skill-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                this.style.background = '#edf2f7';
+            });
+            item.addEventListener('mouseleave', function () {
+                this.style.background = '#f7fafc';
+            });
+        });
+
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', function () {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+    </script>
+</body>
+</html>
