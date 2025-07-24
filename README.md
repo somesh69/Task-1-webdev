@@ -50,7 +50,7 @@ Aspiring Web Developer
 
 ## 🚀 Live Preview
 
-🔗 [Click here to visit the live site]
+🔗 🚀 <a href="file:///C:/Users/User/OneDrive/Desktop/task-1/index.html"><strong>Click here to visit the live site</strong></a>
 
 
 ## 📸 Screenshots
