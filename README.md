@@ -56,7 +56,7 @@ Aspiring Web Developer
 ## 📸 Screenshots
 
 * Webpage - Top Section
- ![alt text](<Screenshot 2025-07-23 133908-1.png>)
+ ![alt text](<Screenshot top section.jpg>)
 
 *  Webpage - Bottom Section
 ![alt text](<Screenshot 2025-07-23 133908.png>)
