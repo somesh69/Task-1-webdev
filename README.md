@@ -50,7 +50,7 @@ Aspiring Web Developer
 
 ## 🚀 Live Preview
 
-🔗 🚀 <a href="https://somesh69.github.io/Task-1-webdev/"><strong>Click here to visit somesh pratap singh webpage/strong></a>
+🔗 🚀 <a href="https://somesh69.github.io/Task-1-webdev/"><strong>Click here to visit somesh pratap singh webpage</a>
 
 
 ## 📸 Screenshots
