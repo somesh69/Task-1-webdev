@@ -50,7 +50,7 @@ Aspiring Web Developer
 
 ## 🚀 Live Preview
 
-🔗 🚀 <a href="https://github.com/somesh69/Task-1-webdev"><strong>Click here to visit the live site</strong></a>
+🔗 🚀 <a href="https:[//github.com/somesh69/Task-1-webdev](http://127.0.0.1:3000/index.html)"><strong>Click here to visit the live site</strong></a>
 
 
 ## 📸 Screenshots
