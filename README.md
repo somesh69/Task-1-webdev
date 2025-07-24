@@ -50,7 +50,7 @@ Aspiring Web Developer
 
 ## 🚀 Live Preview
 
-🔗 🚀 <a href="file:///C:/Users/User/OneDrive/Desktop/task-1/index.html"><strong>Click here to visit the live site</strong></a>
+🔗 🚀 <a href="https://github.com/somesh69/Task-1-webdev"><strong>Click here to visit the live site</strong></a>
 
 
 ## 📸 Screenshots
